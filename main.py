@@ -2,8 +2,17 @@
 Returneaza true daca n este prim si false daca nu.
 '''
 def is_prime(n):
-  # codul vostru aici
-  
+  prim = True
+  if n<2:
+    prim = False
+   for i in range (2,n):
+    if n%d == 0:
+        prim = False
+  return prim
+  assert is_prime(2) == 1
+  assert is_prime(1) == 0
+  assert is_prime(0) == 0
+    
   
 '''
 Returneaza produsul numerelor din lista lst.
